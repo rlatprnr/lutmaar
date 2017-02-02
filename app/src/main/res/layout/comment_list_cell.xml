@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f9f9f9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.wots.lutmaar.CustomView.imageshape.RoundedImageView
+                android:id="@+id/ivDealCommentUserImage"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher"
+                app:siRadius="@dimen/_40sdp"
+                app:siSquare="true" />
+
+            <TextView
+                android:id="@+id/tvUserTotalComment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Comments:50"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_15sdp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tvDealCommentUserName"
+                    android:layout_width="0dp "
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="User Name"
+                    android:textColor="@color/ColorPrimary"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvDealCommentTime"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:drawableLeft="@drawable/deal_details_domment_time"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:text=" 10 hr. 25 min. ago"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvDealCommentDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:singleLine="false"
+                android:text="Deals comment Data details\nlsdjhhhht\nlsdtkj"
+                android:textSize="10sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_21sdp">
+
+                <TextView
+                    android:id="@+id/tvDealCommentLike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/deal_details_like"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:text="Like (2)"
+                    android:textColor="@color/ColorPrimary"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:id="@+id/tvDealCommentDisLike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:drawableLeft="@drawable/deal_details_dislike"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:text="Like (2)"
+                    android:textColor="@color/ColorPrimary"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:id="@+id/tvDealCommentFlag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:drawableLeft="@drawable/deal_details_red_flag"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:text="Flag"
+                    android:textColor="@color/MenuRed"
+                    android:textSize="9sp" />
+
+                <!--  <TextView
+                      android:id="@+id/tvDealCommentFollow"
+                      android:layout_width="50dp"
+                      android:layout_height="22dp"
+                      android:background="@drawable/btn_comment_follow"
+                      android:gravity="center"
+                      android:text="Follow +"
+                      android:textColor="@color/white"
+                      android:textSize="9sp" />-->
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

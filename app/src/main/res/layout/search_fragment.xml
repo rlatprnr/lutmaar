@@ -1,0 +1,575 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.wots.lutmaar.Fragment.SearchFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etSearchTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/et_modify_state_black"
+                android:drawableLeft="@drawable/ic_searchblue"
+                android:drawablePadding="@dimen/_8sdp"
+                android:hint="Write the key words"
+                android:paddingLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DEAL"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="VOUCHERS"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="FREEBIES"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="ASK"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_weight="1.2"
+                    android:gravity="center"
+                    android:text="COMPETITIONS"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/rgDealTypeSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbtnDeal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/rBtnVouchers"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:id="@+id/rBtnFreebies"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:id="@+id/rBtnAsk"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:id="@+id/rBtnCompetition"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvCategorySearch"
+                style="@style/TextView_PostDeal"
+                android:hint="Select Category..." />
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|right"
+                        android:text="Online Deals"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:gravity="center_vertical|right"
+                        android:text="This deal is available on the\n merchant's website"
+                        android:textSize="9sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:gravity="center_vertical">
+
+
+                    <TextView
+                        android:id="@+id/tvSwitchOnOffSearch"
+                        android:layout_width="@dimen/_72sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/_8sdp"
+                        android:background="@drawable/ios_on"
+                        android:drawableLeft="@drawable/switch_on_off_small"
+                        android:gravity="center"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="Offline Deals"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:gravity="center_vertical"
+                        android:text="This deal is available in store"
+                        android:textSize="9sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvCitySearch"
+                style="@style/TextView_PostDeal"
+                android:hint="Select City..." />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@color/MenuColor"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_8sdp"
+                android:text="ORDER BY"
+                android:textColor="@color/white"
+                android:textSize="9sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:src="@drawable/ic_relevance_search" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_marginLeft="@dimen/_8sdp"
+                            android:gravity="center_vertical"
+                            android:text="Relevance" />
+
+                    </LinearLayout>
+
+                    <!--<LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:src="@drawable/ic_distance_search" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_marginLeft="@dimen/_8sdp"
+                            android:gravity="center_vertical"
+                            android:text="Distance" />
+
+                    </LinearLayout>-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:src="@drawable/ic_rating_search" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_marginLeft="@dimen/_8sdp"
+                            android:gravity="center_vertical"
+                            android:text="Rating" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:src="@drawable/ic_deal_time" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_marginLeft="@dimen/_8sdp"
+                            android:gravity="center_vertical"
+                            android:text="Deal Time" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/rgSortType"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rbtnSortRelevanceSearch"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_weight="1"
+                        android:checked="true" />
+
+                  <!--  <RadioButton
+                        android:id="@+id/rBtnSortDistanceSearch"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_weight="1" />-->
+
+                    <RadioButton
+                        android:id="@+id/rBtnSortRatingSearch"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:id="@+id/rBtnSortDealTimeSearch"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_weight="1" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/MenuColor"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="FILTERED BY"
+                android:textColor="@color/white"
+                android:textSize="4pt" />
+
+            <LinearLayout
+                android:id="@+id/LLBottomMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:minHeight="?attr/actionBarSize"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivSearchTop25"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_top25_orang" />
+
+                    <TextView
+                        android:id="@+id/tvSearchTop25"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="Top 25"
+                        android:textAllCaps="true"
+                        android:textColor="@color/MenuOrange"
+                        android:textSize="4pt" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivSearchReviews"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_reviews_black" />
+
+                    <TextView
+                        android:id="@+id/tvSearchReviews"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="Reviews"
+                        android:textAllCaps="true"
+                        android:textColor="@color/darkgray"
+                        android:textSize="4pt" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivSearchPoints"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_points_black" />
+
+                    <TextView
+                        android:id="@+id/tvSearchPoints"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="Points"
+                        android:textAllCaps="true"
+                        android:textColor="@color/darkgray"
+                        android:textSize="4pt" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivSearchRecent"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_recente_black" />
+
+                    <TextView
+                        android:id="@+id/tvSearchRecent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="Recent"
+                        android:textAllCaps="true"
+                        android:textColor="@color/darkgray"
+                        android:textSize="4pt" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.05dp"
+                android:background="@color/darkgray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_location_search" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Location" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_right_arrow_search" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.05dp"
+                android:background="@color/darkgray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_super_hot_search" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Super Hot" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_right_arrow_search" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.05dp"
+                android:background="@color/darkgray" />-->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/MenuGreen"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvDoneSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/MenuGreen"
+                android:drawableLeft="@drawable/save_deals"
+                android:gravity="center_vertical"
+                android:text=" DONE"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/chat_box_border"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvCleanAllSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/chat_box_border"
+                android:drawableLeft="@drawable/clear_all_deals"
+                android:gravity="center_vertical"
+                android:text=" CLEAR ALL"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.wots.lutmaar.Fragment.RecentFragment">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:background="@color/wc1"
+         android:gravity="center">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/white"
+             android:textSize="12pt"
+             android:gravity="center"
+             android:layout_marginBottom="20dp"
+             android:text="Welcome to the\nLutMaar app!"/>
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="160dp"
+             android:src="@drawable/a111"/>
+         <TextView
+             android:id="@+id/WCTitle1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@color/white"
+             android:textSize="6pt"
+             android:gravity="center"
+             android:layout_marginLeft="30dp"
+             android:layout_marginRight="30dp"
+             android:text="@string/WCTitle1"/>
+         <TextView
+             android:id="@+id/WCSubTitle1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@color/white"
+             android:textSize="5pt"
+             android:gravity="center"
+             android:layout_marginLeft="30dp"
+             android:layout_marginRight="30dp"
+             android:text="@string/WCSubTitle1"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@color/white"
+             android:textSize="6pt"
+             android:gravity="center"
+             android:layout_marginTop="20dp"
+             android:text="At lutmaar.com - EVERYONE WINS! !"/>
+     </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,442 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wots.lutmaar.Fragment.abc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/LLPrice"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Prices"
+                android:textColor="@color/orange"
+                android:textSize="5pt" />
+
+            <EditText
+                android:id="@+id/etDealPrices"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/et_modify_state_black"
+                android:ems="10"
+                android:hint="0"
+                android:inputType="number"
+                android:paddingLeft="20dp"
+                android:textColorHint="@color/orange" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etDealDetails"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_modify_state_black"
+            android:hint="Details"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            android:id="@+id/tvDealDetails"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/et_modify_state_black"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:hint="Details"
+            android:text="sfs;dsfdssdfsdsdf"
+            android:maxLines="2"
+            android:paddingLeft="20dp"  />
+
+        <Spinner
+            android:id="@+id/spCategory"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_modify_state_black" />
+
+        <EditText
+            android:id="@+id/etDealAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_modify_state_black"
+            android:hint="Address"
+            android:paddingLeft="20dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/chat_box_border" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Optional Files"
+            android:textSize="5pt" />
+
+        <LinearLayout
+            android:id="@+id/LLDealAddPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/ivDealImageAttachment"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_pictureattachment" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvAddPhoto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add Photos"
+                            android:textSize="5pt" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="File must be less then 3 MB."
+                            android:textSize="4pt" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Allowed file type: png,gif,jpg,jpeg."
+                            android:textSize="4pt" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/ivDealImageCapture"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_picturecamera" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTakePhoto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Take Photos"
+                            android:textSize="5pt" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="You can add maximum 5 photos."
+                            android:textSize="4pt" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Allowed file type: png,gif,jpg,jpeg."
+                            android:textSize="4pt" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LLImageList"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp">
+
+                <LinearLayout
+                    android:id="@+id/LLImage1"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp" >
+
+                    <FrameLayout
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp">
+
+
+                        <ImageView
+                            android:id="@+id/ivTakeImage1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/login"
+                            android:scaleType="fitXY"
+                            android:layout_gravity="right|top" />
+
+                        <ImageView
+                            android:id="@+id/ivImageCancel1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="5dp"
+                            android:src="@drawable/clear_all_deals"
+                            android:layout_gravity="right|top" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLImage2"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp" >
+
+                    <FrameLayout
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp">
+
+                        <ImageView
+                            android:id="@+id/ivTakeImage2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/login" />
+
+                        <ImageView
+                            android:id="@+id/ivImageCancel2"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:padding="5dp"
+                            android:src="@drawable/clear_all_deals"
+                            android:layout_gravity="right|top" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/LLImage3"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp" >
+
+                    <FrameLayout
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp">
+
+                        <ImageView
+                            android:id="@+id/ivTakeImage3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/login" />
+
+                        <ImageView
+                            android:id="@+id/ivImageCancel3"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:padding="5dp"
+                            android:src="@drawable/clear_all_deals"
+                            android:layout_gravity="right|top" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/LLImage4"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp" >
+
+                    <FrameLayout
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp">
+
+                        <ImageView
+                            android:id="@+id/ivTakeImage4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/login" />
+
+                        <ImageView
+                            android:id="@+id/ivImageCancel4"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:padding="5dp"
+                            android:src="@drawable/clear_all_deals"
+                            android:layout_gravity="right|top" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/LLImage5"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp" >
+
+                    <FrameLayout
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp">
+
+                        <ImageView
+                            android:id="@+id/ivTakeImage5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/login" />
+
+                        <ImageView
+                            android:id="@+id/ivImageCancel5"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:padding="5dp"
+                            android:src="@drawable/clear_all_deals"
+                            android:layout_gravity="right|top" />
+                    </FrameLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLDealDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:text="Start Date"
+                    android:textSize="5pt" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="End Date"
+                    android:textSize="5pt" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tvDealStartDate"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/et_modify_state_black"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvDealEndDate"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/et_modify_state_black"
+                    android:gravity="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/MenuGreen"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvSaveDeal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/MenuGreen"
+                    android:drawableLeft="@drawable/save_deals"
+                    android:gravity="center_vertical"
+                    android:text=" SAVE"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/chat_box_border"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvCleanAllDeal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/chat_box_border"
+                    android:drawableLeft="@drawable/clear_all_deals"
+                    android:gravity="center_vertical"
+                    android:text=" CLEAR ALL"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ellipse_orange"
+            android:gravity="center"
+            android:text="Test"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</FrameLayout>

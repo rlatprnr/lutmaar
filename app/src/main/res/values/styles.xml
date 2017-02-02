@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+    </style>-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
+
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorAccent">@color/orange</item>
+      <!-- <item name="android:textColorPrimary">#FFFFFF</item>-->
+       <!-- <item name="actionMenuTextColor">#FFFFFF</item>-->
+       <!--<item name="android:textColorSecondary">#FFFFFF</item>-->
+
+        <item name="android:itemTextAppearance">@style/overFlowMenuTextcolor</item>
+    </style>
+    <style name="AppThemeOrange" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
+
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/ColorPrimaryDark_notification</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="actionMenuTextColor">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="android:itemTextAppearance">@style/overFlowMenuTextcolor</item>
+    </style>
+    <style name="AppThemeLogin" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowFullscreen">true</item>
+
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorPrimaryDark_notification</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="actionMenuTextColor">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="android:itemTextAppearance">@style/overFlowMenuTextcolor</item>
+    </style>
+    <style name="overFlowMenuTextcolor" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/ColorPrimaryDark</item>
+    </style>
+
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="EditTextStyle" parent="android:Widget.EditText">
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/_35sdp</item>
+        <item name="android:layout_marginRight">@dimen/_35sdp</item>
+        <item name="android:background">@drawable/et_modify_state</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:drawablePadding">5dp</item>
+
+    </style>
+
+    <style name="btn_login">
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/_35sdp</item>
+        <item name="android:layout_marginRight">@dimen/_35sdp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/rounded_corner_orange</item>
+    </style>
+
+    <style name="TextView_PostDeal">
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+        <item name="android:gravity">center_vertical</item>
+       <!-- <item name="android:typeface">serif</item>-->
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingLeft">@dimen/_15sdp</item>
+        <item name="android:background">@drawable/et_modify_state_black</item>
+    </style>
+
+    <style name="CustomShowcaseTheme" parent="ShowcaseView.Light">
+        <item name="sv_backgroundColor">#cc1ca2c3</item>
+        <item name="sv_showcaseColor">@color/ColorPrimaryDark</item>
+        <item name="sv_buttonText">Hide</item>
+        <item name="sv_tintButtonColor">false</item>
+        <item name="sv_titleTextAppearance">@style/CustomTitle</item>
+    </style>
+
+    <style name="CustomTitle" parent="TextAppearance.ShowcaseView.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+</resources>

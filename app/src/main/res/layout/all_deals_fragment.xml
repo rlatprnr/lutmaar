@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wots.lutmaar.Fragment.AllDealsFragment">
+
+    <ProgressBar
+        android:id="@+id/pbAllDeals"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-7dp"
+        android:background="@android:color/transparent" />
+
+    <ListView
+        android:id="@+id/lvAllDeals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="3dp" />
+</FrameLayout>

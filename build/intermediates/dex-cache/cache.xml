@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-f726e760bcc812dc6f70f83815304362547acfb5.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-0078af3654cdbea28c669e6afdee877c9de9a917.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-c2561e2ee4a34c0cf1fa4f8941116dea5d336ae6.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-f92ba12e82848f285be45f62b066808ece2464fa.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-b11e3eee4a4f68a9bb2181a4422150080f0487b1.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-531bc37a0aed7450e0e3c43c3fcadb66cdc126b1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\gson-2.3.1-e753de0dc6ee3dbdc71d51a7b721ccbac7347c8e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-b5902f69909dbc0e787f31f8910b1f09e90ae9b8.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-cdc8d1f7421137447a2e821b51373c488472d1cd.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter-core\1.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a9f5c30c22dc9a623078f85000c787cd191aa35f">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-b4563ec6194490464e2037c7edb83feb90bd349b.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-0eb887c189027b1c863ba657e6d671ad155f42ea.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-efbf66895d8aca2eb063a16057211f80e2f58885.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-5ac285bb3b1a793931b13a2d64cad22fd53170af.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-fc6cc9238a96ee5b3504fdea13fe71ec124410f9.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-c2561e2ee4a34c0cf1fa4f8941116dea5d336ae6.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-0078af3654cdbea28c669e6afdee877c9de9a917.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-f726e760bcc812dc6f70f83815304362547acfb5.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-428263e96dd260d8b1897c882a4414b2513ff917.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-001c185d6e435794bd1f6405f5472281f3c5878a.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-525185749465c24c9b3a49e22f827e8b62820a96.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-d460dadc5c54dee88e674c6e5490097348ac6b93.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.github.amlcurran.showcaseview\library\5.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8b3d9a7b348d8bcfb4d740dfaf70bc374cdae9d6">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-7b2dfbc4247c195701e88079f1fbe30a6b4eefbf.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f7dc6b43d7c7f3d94e98531aef88269f9ed2a37b">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-2e0d01fcfd6b156928498dee3cb1327b42bd9d94.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-db268b242979ef275f70067d2ca798d8d7a7bbd9.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.github.castorflex.smoothprogressbar\library-circular\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="92b3f2b3c9174fc475de2f7c509e874e633e1937">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-408e90e960bd6bd0bed5e3074c712c4f8c9f6029.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-c4c89153487f99fb7b5fb233767e6f97ddfabee7.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-7c2d02b0b1104b4deff8e5f5ee7018223834e8cf.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-0eb887c189027b1c863ba657e6d671ad155f42ea.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-a48e117c7ba73370956d8498a194612469ec41d7.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-cdc8d1f7421137447a2e821b51373c488472d1cd.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-7c2d02b0b1104b4deff8e5f5ee7018223834e8cf.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-2912d8e50cb1c025a6c57897c91654db96c250e0.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-9e6063ca519e8a649d2175e991fd3c0477b29084.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-477c15e11a2e0abb0060a140e8b682eb659d56e2.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-065030b42a00e4cb70d7901078c3908791342a3f.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-531bc37a0aed7450e0e3c43c3fcadb66cdc126b1.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-0eb887c189027b1c863ba657e6d671ad155f42ea.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-525185749465c24c9b3a49e22f827e8b62820a96.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-d460dadc5c54dee88e674c6e5490097348ac6b93.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-9e6063ca519e8a649d2175e991fd3c0477b29084.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-c4c89153487f99fb7b5fb233767e6f97ddfabee7.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-efbf66895d8aca2eb063a16057211f80e2f58885.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-768040b6e1d89bf0198181345eff4a589e49ab67.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-fc6cc9238a96ee5b3504fdea13fe71ec124410f9.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-ae5f8598836aaa8d30758cb0d96400011e04099a.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-525185749465c24c9b3a49e22f827e8b62820a96.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.digits.sdk.android\digits\1.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85dbcb10f2e04aa08bcd7b4405e4a7fec615760d">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-113f0250ebf286216349ac5ffebb9538b4caace0.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-fc6cc9238a96ee5b3504fdea13fe71ec124410f9.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-7c2d02b0b1104b4deff8e5f5ee7018223834e8cf.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-9e6063ca519e8a649d2175e991fd3c0477b29084.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-531bc37a0aed7450e0e3c43c3fcadb66cdc126b1.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-b11e3eee4a4f68a9bb2181a4422150080f0487b1.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-cdc8d1f7421137447a2e821b51373c488472d1cd.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-001c185d6e435794bd1f6405f5472281f3c5878a.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.github.amlcurran.showcaseview\library\5.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8b3d9a7b348d8bcfb4d740dfaf70bc374cdae9d6">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-7b2dfbc4247c195701e88079f1fbe30a6b4eefbf.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-26335a7b916318c1e16279bbca21d4cfd63eb550.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-768040b6e1d89bf0198181345eff4a589e49ab67.jar" />
+    </item>
+    <item
+        jar="F:\Bhavesh\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-4408f4bb7d3433002561c3316b3a768872755db4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-b5902f69909dbc0e787f31f8910b1f09e90ae9b8.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-f726e760bcc812dc6f70f83815304362547acfb5.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-428263e96dd260d8b1897c882a4414b2513ff917.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-d460dadc5c54dee88e674c6e5490097348ac6b93.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-f726e760bcc812dc6f70f83815304362547acfb5.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-6f3008ae553ab3a400bab1440df0b38d28278a2b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-db268b242979ef275f70067d2ca798d8d7a7bbd9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\gson-2.3.1-e753de0dc6ee3dbdc71d51a7b721ccbac7347c8e.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-5ac285bb3b1a793931b13a2d64cad22fd53170af.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-26335a7b916318c1e16279bbca21d4cfd63eb550.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-b11e3eee4a4f68a9bb2181a4422150080f0487b1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-b5902f69909dbc0e787f31f8910b1f09e90ae9b8.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-c2561e2ee4a34c0cf1fa4f8941116dea5d336ae6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-b5902f69909dbc0e787f31f8910b1f09e90ae9b8.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-001c185d6e435794bd1f6405f5472281f3c5878a.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-0078af3654cdbea28c669e6afdee877c9de9a917.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-ae5f8598836aaa8d30758cb0d96400011e04099a.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.hannesdorfmann.smoothprogressbar\library\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b0c4e77822421eb57e484df72ebb208b62df93e8">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-5728c86ad9cfeac0c6be1cc9d09e25ed96a6a8ef.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\gson-2.3.1-e753de0dc6ee3dbdc71d51a7b721ccbac7347c8e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-cc77eb9432aaf65e14a952827f119f72f660651b.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-f92ba12e82848f285be45f62b066808ece2464fa.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-composer\0.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="157015930713d0411b69a76606f306c9a2c11af3">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-d6ca4e26d3d7eb00d355fd1aee6a6697612ed7be.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-26335a7b916318c1e16279bbca21d4cfd63eb550.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-ae5f8598836aaa8d30758cb0d96400011e04099a.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-110dc3e86906cbe2ca3ebca6196539cc11459942.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-a48e117c7ba73370956d8498a194612469ec41d7.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-f92ba12e82848f285be45f62b066808ece2464fa.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-26335a7b916318c1e16279bbca21d4cfd63eb550.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-ac832a97235b9b49011a72e8dfa6d84d44f418e9.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-composer\0.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="157015930713d0411b69a76606f306c9a2c11af3">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-d6ca4e26d3d7eb00d355fd1aee6a6697612ed7be.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-065030b42a00e4cb70d7901078c3908791342a3f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-cc77eb9432aaf65e14a952827f119f72f660651b.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-ae5f8598836aaa8d30758cb0d96400011e04099a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\gson-2.3.1-e753de0dc6ee3dbdc71d51a7b721ccbac7347c8e.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-6f3008ae553ab3a400bab1440df0b38d28278a2b.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-477c15e11a2e0abb0060a140e8b682eb659d56e2.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-6eaf4c8257473fad8d0a5d35a7a55343184fe045.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-768040b6e1d89bf0198181345eff4a589e49ab67.jar" />
+    </item>
+    <item
+        jar="F:\Bhavesh\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-4408f4bb7d3433002561c3316b3a768872755db4.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-efbf66895d8aca2eb063a16057211f80e2f58885.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-6f3008ae553ab3a400bab1440df0b38d28278a2b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-db268b242979ef275f70067d2ca798d8d7a7bbd9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-ac832a97235b9b49011a72e8dfa6d84d44f418e9.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-5ac285bb3b1a793931b13a2d64cad22fd53170af.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-cdc8d1f7421137447a2e821b51373c488472d1cd.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-428263e96dd260d8b1897c882a4414b2513ff917.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-5ac285bb3b1a793931b13a2d64cad22fd53170af.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-d460dadc5c54dee88e674c6e5490097348ac6b93.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-477c15e11a2e0abb0060a140e8b682eb659d56e2.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-428263e96dd260d8b1897c882a4414b2513ff917.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-065030b42a00e4cb70d7901078c3908791342a3f.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-110dc3e86906cbe2ca3ebca6196539cc11459942.jar" />
+    </item>
+    <item
+        jar="C:\Users\Super Star\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-db268b242979ef275f70067d2ca798d8d7a7bbd9.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-6f3008ae553ab3a400bab1440df0b38d28278a2b.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-b11e3eee4a4f68a9bb2181a4422150080f0487b1.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-efbf66895d8aca2eb063a16057211f80e2f58885.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-c2561e2ee4a34c0cf1fa4f8941116dea5d336ae6.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-a48e117c7ba73370956d8498a194612469ec41d7.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.digits.sdk.android\digits\1.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="85dbcb10f2e04aa08bcd7b4405e4a7fec615760d">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-113f0250ebf286216349ac5ffebb9538b4caace0.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.hannesdorfmann.smoothprogressbar\library\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b0c4e77822421eb57e484df72ebb208b62df93e8">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-5728c86ad9cfeac0c6be1cc9d09e25ed96a6a8ef.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-065030b42a00e4cb70d7901078c3908791342a3f.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-477c15e11a2e0abb0060a140e8b682eb659d56e2.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.4\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f7dc6b43d7c7f3d94e98531aef88269f9ed2a37b">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-2e0d01fcfd6b156928498dee3cb1327b42bd9d94.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-0078af3654cdbea28c669e6afdee877c9de9a917.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-c4c89153487f99fb7b5fb233767e6f97ddfabee7.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-0eb887c189027b1c863ba657e6d671ad155f42ea.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.github.castorflex.smoothprogressbar\library-circular\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92b3f2b3c9174fc475de2f7c509e874e633e1937">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-408e90e960bd6bd0bed5e3074c712c4f8c9f6029.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-6eaf4c8257473fad8d0a5d35a7a55343184fe045.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-f92ba12e82848f285be45f62b066808ece2464fa.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-2912d8e50cb1c025a6c57897c91654db96c250e0.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-001c185d6e435794bd1f6405f5472281f3c5878a.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-525185749465c24c9b3a49e22f827e8b62820a96.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-fc6cc9238a96ee5b3504fdea13fe71ec124410f9.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-c4c89153487f99fb7b5fb233767e6f97ddfabee7.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter-core\1.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a9f5c30c22dc9a623078f85000c787cd191aa35f">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-b4563ec6194490464e2037c7edb83feb90bd349b.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-768040b6e1d89bf0198181345eff4a589e49ab67.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-7c2d02b0b1104b4deff8e5f5ee7018223834e8cf.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-531bc37a0aed7450e0e3c43c3fcadb66cdc126b1.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-9e6063ca519e8a649d2175e991fd3c0477b29084.jar" />
+    </item>
+    <item
+        jar="E:\Office Project\Lutmaar\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\Office Project\Lutmaar\app\build\intermediates\pre-dexed\debug\classes-a48e117c7ba73370956d8498a194612469ec41d7.jar" />
+    </item>
+
+</items>

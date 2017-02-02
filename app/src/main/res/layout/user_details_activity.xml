@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/login"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.wots.lutmaar.Activity.UserDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/color_shape">
+        <include
+            layout="@layout/toolbar_login"  />
+
+        <TextView
+            android:id="@+id/tvUserData"
+            style="@style/TextViewStyle"
+            android:text="Login Success \nWelcome LutMaar !!! "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvUserId"
+            style="@style/TextViewStyle"
+            android:text="User ID" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            style="@style/TextViewStyle"
+            android:text="User Name" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            style="@style/TextViewStyle"
+            android:text="Email Id" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:id="@+id/btnLogOut"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tv"
+            android:layout_gravity="center_horizontal" />
+        <ListView
+            android:id="@+id/lvDeals1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

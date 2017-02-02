@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_drawer_width">260dp</dimen>
+    <dimen name="showcase_radius">50dp</dimen>
+    <dimen name="showcase_radius_inner">53dp</dimen>
+    <dimen name="showcase_radius_outer">70dp</dimen>
+</resources>

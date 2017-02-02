@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_96sdp"
+        android:layout_margin="@dimen/_25sdp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/ivShakeMobile"
+                android:layout_width="@dimen/_96sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:src="@drawable/ic_shakemobileimage" />
+            <TextView
+                android:layout_width="@dimen/_104sdp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Shake to refresh the latest deals \n\n And so on..."/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

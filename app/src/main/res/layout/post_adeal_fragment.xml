@@ -1,0 +1,801 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mySwitch="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.wots.lutmaar.Fragment.PostADealFragment">
+
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/LLSavePostADeal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:paddingBottom="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="DEAL"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="VOUCHERS"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="FREEBIES"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ASK"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1.2"
+                        android:gravity="center"
+                        android:text="COMPETITIONS"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/rgDealType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rBtnDeal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:id="@+id/rBtnVouchers"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:id="@+id/rBtnFreebies"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:id="@+id/rBtnAsk"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:id="@+id/rBtnCompetition"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/chat_box_border" />
+
+                <TextView
+                    android:id="@+id/tvDealTitle"
+                    style="@style/TextView_PostDeal"
+                    android:ellipsize="end"
+                    android:hint="Title"
+                    android:maxLines="1"
+                    android:textColorHint="@color/orange" />
+
+                <LinearLayout
+                    android:id="@+id/LLOnlineOrOffline"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|right"
+                            android:text="Online Deals"
+                            android:textSize="5pt" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:gravity="center_vertical|right"
+                            android:text="This deal is available on the\n merchant's website"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical">s
+
+                        <TextView
+                            android:id="@+id/tvSwitchOnOff"
+                            android:layout_width="90dp"
+                            android:layout_height="25dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/ios_on"
+                            android:drawableLeft="@drawable/switch_on_off_small"
+                            android:gravity="center"
+                            android:paddingLeft="3dp"
+                            android:paddingRight="3dp"
+                            android:textColor="@color/white"
+                            android:textSize="5pt"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:text="Offline Deals"
+                            android:textSize="5pt" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:gravity="center_vertical"
+                            android:text="This deal is available in store"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!--  <TextView
+                          android:id="@+id/tvCategoryOffLine"
+                          android:layout_width="match_parent"
+                          android:layout_height="40dp"
+                          android:layout_gravity="center_horizontal"
+                          android:layout_marginTop="10dp"
+                          android:background="@drawable/et_modify_state_black"
+                          android:gravity="center_vertical"
+                          android:hint="Select Category..."
+                          android:paddingLeft="10dp"
+                          android:drawableRight="@drawable/dropdown_image_small"
+                          android:paddingRight="10dp"  />-->
+
+                    <!--   <TextView
+                           android:id="@+id/tvOtherMerchentSite"
+                           android:layout_width="match_parent"
+                           android:layout_height="20dp"
+                           android:layout_marginTop="5dp"
+                           android:text="Path to anothermerchant site"
+                           android:textSize="12sp" />-->
+
+                    <EditText
+                        android:id="@+id/etOtherMerchentSite"
+                        style="@style/TextView_PostDeal"
+                        android:layout_marginTop="5dp"
+                        android:hint="Path to anothermerchant site" />
+
+                    <TextView
+                        android:id="@+id/tvOnlinePostLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/merchantLocation"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/etCompanyName"
+                        style="@style/TextView_PostDeal"
+                        android:hint="Company Name" />
+
+                    <LinearLayout
+                        android:id="@+id/llAddressDealOffline1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp">
+
+                        <EditText
+                            android:id="@+id/etAddressDealOffline1"
+                            style="@style/TextView_PostDeal"
+                            android:layout_width="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:hint="Address line 1" />
+
+                        <ImageView
+                            android:id="@+id/ivGetCurrentAddress"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_location" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/etAddressDealOffline2"
+                        style="@style/TextView_PostDeal"
+                        android:hint="Address line 2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tvCity"
+                            style="@style/TextView_PostDeal"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:drawableRight="@drawable/dropdown_image_small"
+                            android:hint="Select City..."
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_15sdp" />
+
+                        <TextView
+                            android:id="@+id/tvCategory"
+                            style="@style/TextView_PostDeal"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:drawableRight="@drawable/dropdown_image_small"
+                            android:hint="Select Category..."
+                            android:paddingRight="@dimen/_15sdp" />
+                    </LinearLayout>
+                    <!-- <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="50dp"
+                         android:layout_marginTop="10dp">
+
+                         <Spinner
+                             android:id="@+id/spCity"
+                             android:layout_width="match_parent"
+                             android:layout_height="40dp"
+                             android:layout_gravity="center_horizontal"
+                             android:layout_marginRight="5dp"
+                             android:layout_weight="1"
+                             android:background="@drawable/et_modify_state_black" />
+
+                            <Spinner
+                                android:id="@+id/spState"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/et_modify_state_black" />
+
+                     </LinearLayout>-->
+
+                    <EditText
+                        android:id="@+id/etPinCode"
+                        style="@style/TextView_PostDeal"
+                        android:digits="0123456789"
+                        android:hint="PinCode"
+                        android:inputType="phone"
+                        android:maxLength="6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:gravity="center_vertical">
+
+
+                    <EditText
+                        android:id="@+id/etDealPrices"
+                        style="@style/TextView_PostDeal"
+                        android:layout_marginTop="0dp"
+                        android:digits="0123456789"
+                        android:hint="Prices"
+                        android:inputType="phone"
+                        android:maxLength="5"
+                        android:textColorHint="@color/orange" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvDealDetails"
+                    style="@style/TextView_PostDeal"
+                    android:layout_height="@dimen/_140sdp"
+                    android:ellipsize="end"
+                    android:hint="Details"
+                    android:maxLines="1" />
+
+
+                <TextView
+                    android:id="@+id/tvPeriod"
+                    style="@style/TextView_PostDeal"
+                    android:drawableRight="@drawable/dropdown_image_small"
+                    android:hint="Select Period..."
+                    android:paddingRight="@dimen/_15sdp" />
+
+                <EditText
+                    android:id="@+id/etPrize"
+                    style="@style/TextView_PostDeal"
+                    android:ems="10"
+                    android:hint="Prize"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/etValue"
+                    style="@style/TextView_PostDeal"
+                    android:ems="10"
+                    android:hint="Value"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/etCompetitionRules"
+                    style="@style/TextView_PostDeal"
+                    android:hint="Rules" />
+
+                <EditText
+                    android:id="@+id/etCompetitionLinkRules"
+                    style="@style/TextView_PostDeal"
+                    android:hint="Link to Rules" />
+
+
+                <EditText
+                    android:id="@+id/etDiscount"
+                    style="@style/TextView_PostDeal"
+                    android:hint="Discount" />
+
+                <EditText
+                    android:id="@+id/etCode"
+                    style="@style/TextView_PostDeal"
+                    android:hint="Code" />
+
+                <EditText
+                    android:id="@+id/etSpend"
+                    style="@style/TextView_PostDeal"
+                    android:hint="Minimum Spend" />
+
+                <EditText
+                    android:id="@+id/etApplies"
+                    style="@style/TextView_PostDeal"
+                    android:hint="Applies to" />
+
+                <LinearLayout
+                    android:id="@+id/LLDealAddPhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/chat_box_border" />
+                    <!--
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="Optional Files"
+                                        android:textSize="5pt" />-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:id="@+id/ivDealImageAttachment"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_pictureattachment" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tvAddPhoto"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Add Photos"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="File must be less then 3 MB."
+                                    android:textSize="9sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Allowed file type: png,gif,jpg,jpeg."
+                                    android:textSize="9sp" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LLDealTakePhoto"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:id="@+id/ivDealImageCapture"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_picturecamera" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tvTakePhoto"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Take Photos"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="You can add maximum 5 photos."
+                                    android:textSize="9sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Allowed file type: png,gif,jpg,jpeg."
+                                    android:textSize="9sp" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LLImageList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:id="@+id/LLImage1"
+                            android:layout_width="@dimen/_55sdp"
+                            android:layout_height="@dimen/_55sdp"
+                            android:visibility="gone">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+                                <ImageView
+                                    android:id="@+id/ivTakeImage1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="right|top"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/login" />
+
+                                <ImageView
+                                    android:id="@+id/ivImageCancel1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="right|top"
+                                    android:padding="5dp"
+                                    android:src="@drawable/ic_action_highlight_remove" />
+                            </FrameLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LLImage2"
+                            android:layout_width="@dimen/_55sdp"
+                            android:layout_height="@dimen/_55sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:visibility="gone">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/ivTakeImage2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/login" />
+
+                                <ImageView
+                                    android:id="@+id/ivImageCancel2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="right|top"
+                                    android:padding="5dp"
+                                    android:src="@drawable/ic_action_highlight_remove" />
+                            </FrameLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LLImage3"
+                            android:layout_width="@dimen/_55sdp"
+                            android:layout_height="@dimen/_55sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:visibility="gone">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/ivTakeImage3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/login" />
+
+                                <ImageView
+                                    android:id="@+id/ivImageCancel3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="right|top"
+                                    android:padding="5dp"
+                                    android:src="@drawable/ic_action_highlight_remove" />
+                            </FrameLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LLImage4"
+                            android:layout_width="@dimen/_55sdp"
+                            android:layout_height="@dimen/_55sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:visibility="gone">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/ivTakeImage4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/login" />
+
+                                <ImageView
+                                    android:id="@+id/ivImageCancel4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="right|top"
+                                    android:padding="5dp"
+                                    android:src="@drawable/ic_action_highlight_remove" />
+                            </FrameLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LLImage5"
+                            android:layout_width="@dimen/_55sdp"
+                            android:layout_height="@dimen/_55sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:visibility="gone">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/ivTakeImage5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/login" />
+
+                                <ImageView
+                                    android:id="@+id/ivImageCancel5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="right|top"
+                                    android:padding="5dp"
+                                    android:src="@drawable/ic_action_highlight_remove" />
+                            </FrameLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLDealDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:text="Start Date"
+                            android:textSize="12sp" />
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="End Date"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:id="@+id/tvDealStartDate"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/et_modify_state_black"
+                            android:gravity="center" />
+
+                        <TextView
+                            android:id="@+id/tvDealEndDate"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/et_modify_state_black"
+                            android:gravity="center" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/LLSavePostADeal"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/MenuGreen"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvSaveDeal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/MenuGreen"
+                    android:drawableLeft="@drawable/save_deals"
+                    android:gravity="center_vertical"
+                    android:text=" SAVE"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/chat_box_border"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvCleanAllDeal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/chat_box_border"
+                    android:drawableLeft="@drawable/clear_all_deals"
+                    android:gravity="center_vertical"
+                    android:text=" CLEAR ALL"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- </LinearLayout>-->
+
+</FrameLayout>

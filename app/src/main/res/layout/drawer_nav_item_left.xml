@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:background="@drawable/list_selector"
+    android:layout_height="60dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:maxHeight="60dp"
+    android:maxWidth="60dp"
+    android:minHeight="60dp"
+    android:minWidth="60dp">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icon_twitter"/>
+   <!-- <com.wots.lutmaar.CustomView.CustomTextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="6pt"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:text="asfdsf"
+        android:paddingRight="40dp"/>-->
+    <com.wots.lutmaar.CustomView.CustomTextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/ivIcon"
+        android:textColor="@color/white"
+        android:text="Ram"
+        android:textAllCaps="true"
+        android:textSize="12sp"
+        android:gravity="center_horizontal"
+        />
+</LinearLayout>

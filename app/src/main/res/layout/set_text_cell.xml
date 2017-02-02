@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+
+            <EditText
+                android:id="@+id/etSetText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+
+
+        <TextView
+            android:id="@+id/tvSetTextOk"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/MenuDarkBlue"
+            android:gravity="center"
+            android:text="Ok"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,381 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.wots.lutmaar.Fragment.DealDetailsReviewsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/SCView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/LLBottomComment"
+            android:layout_marginBottom="-3dp"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/LLDetailsPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/LLDetailsOnly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:orientation="vertical">
+
+                    <com.wots.lutmaar.CustomView.JustifiedTextView xmlns:noghteh="http://noghteh.ir"
+                        android:id="@+id/tvDealDetailsTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <com.wots.lutmaar.CustomView.CustomTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/tvDealDetailsOrganisationName"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:text="Bangers Bar and Grill"
+                        android:textColor="@color/MenuDarkBlue"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvDealLocation"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="City of London, London"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tvDealSubCategory"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="City of London, London"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="5dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ivDealDetailsImage0"
+                                android:layout_width="30dp"
+                                android:layout_height="28dp"
+                                android:scaleType="fitXY" />
+
+                            <ImageView
+                                android:id="@+id/ivDealDetailsImage1"
+                                android:layout_width="30dp"
+                                android:layout_height="28dp"
+                                android:layout_marginTop="2dp"
+                                android:scaleType="fitXY" />
+
+                            <ImageView
+                                android:id="@+id/ivDealDetailsImage2"
+                                android:layout_width="30dp"
+                                android:layout_height="28dp"
+                                android:layout_marginTop="2dp"
+                                android:scaleType="fitXY" />
+
+                            <ImageView
+                                android:id="@+id/ivDealDetailsImage3"
+                                android:layout_width="30dp"
+                                android:layout_height="28dp"
+                                android:layout_marginTop="2dp"
+                                android:scaleType="fitXY" />
+
+                            <ImageView
+                                android:id="@+id/ivDealDetailsImage4"
+                                android:layout_width="30dp"
+                                android:layout_height="28dp"
+                                android:layout_marginTop="2dp"
+                                android:scaleType="fitXY" />
+
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/ivDealDetailsImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginLeft="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/image_not_available" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LLDealShareRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/tvDealDetailsHotColdValue"
+                                android:layout_width="60dp"
+                                android:layout_height="25dp"
+                                android:background="@color/Red"
+                                android:gravity="center"
+                                android:text="0o"
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/tvDealDetailsShare"
+                                android:layout_width="60dp"
+                                android:layout_height="25dp"
+                                android:layout_marginLeft="5dp"
+                                android:background="@color/MenuGreen"
+                                android:drawableLeft="@drawable/deal_share"
+                                android:drawablePadding="-5dp"
+                                android:gravity="center"
+                                android:text="Share"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5">
+
+                            <ImageView
+                                android:id="@+id/ivDealSpamFlag"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginLeft="5dp"
+                                android:src="@drawable/deal_details_red_flag" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tvDealDetailsReviewPoints"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/ellipse_orange"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/tvDealDetailsReviews"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:gravity="center_horizontal"
+                                android:text="0 Reviews"
+                                android:textSize="9sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5">
+
+                            <ImageView
+                                android:id="@+id/ivSendPrivateMessage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/messenger_bubble_small_blue" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="right">
+
+                            <Button
+                                android:id="@+id/btnGoToDeal"
+                                style="@style/btn_login"
+                                android:layout_width="wrap_content"
+                                android:layout_height="25dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="0dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="get Offline Deal"
+                                android:textSize="9sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <!--  <com.wots.lutmaar.CustomView.JustifiedTextView
+                          xmlns:noghteh="http://noghteh.ir"
+                          android:id="@+id/tvDealDetailsTitle"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="2dp"
+                          android:textSize="14sp"
+                          android:textStyle="bold"  />-->
+
+                    <!-- <com.wots.lutmaar.CustomView.JustifyTextView
+                     android:id="@+id/tvDealDetailsDetails"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Deals Data details "
+                     android:textSize="12sp" />-->
+                    <com.wots.lutmaar.CustomView.JustifiedTextView xmlns:noghteh="http://noghteh.ir"
+                        android:id="@+id/tvDealDetailsDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:visibility="gone"
+                        noghteh:textColor="@color/darkgray"
+                        noghteh:textSize="12sp" />
+
+                    <WebView
+                        android:id="@+id/tvWebView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:scrollbars="none" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvDealBothTime"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:drawableLeft="@drawable/deal_details_domment_time"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:textSize="10sp" />
+                        <ImageView
+                            android:id="@+id/ivDealExpireFlag"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/deal_details_red_flag" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/lvDealComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#f9f9f9"
+                    android:choiceMode="singleChoice"
+                    android:divider="@color/BackColorGrey"
+                    android:dividerHeight="0.03dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/LLBottomComment"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/shadow_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ivDealDetailsCold"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/BackColorGrey"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_cold" />
+
+                <ImageView
+                    android:id="@+id/ivDealDetailsHot"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/Red"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_hot" />
+
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/MenuDarkBlue"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tvAddComment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/MenuDarkBlue"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@drawable/ic_sharedeal"
+                        android:gravity="center"
+                        android:text="Add a Comment"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

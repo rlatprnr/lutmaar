@@ -1,0 +1,160 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    tools:context="com.wots.lutmaar.Activity.LoginActivity">
+
+    <!-- <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="-15dp"
+         android:scaleType="fitStart"
+         android:src="@drawable/login" />
+
+     <LinearLayout
+         android:id="@+id/llBackGroundSignUp"
+         android:layout_width="match_parent"
+         android:layout_height="800dp"
+         android:background="@drawable/color_shape"
+         android:orientation="vertical">
+
+     </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_login" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--   <ScrollView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:gravity="center"
+                       android:orientation="vertical">-->
+
+            <ProgressBar
+                android:id="@+id/pbSignUp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:indeterminate="true"
+                android:visibility="gone" />
+
+            <LinearLayout
+                style="@style/EditTextStyle"
+                android:layout_marginTop="@dimen/_25sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_user" />
+
+                <EditText
+                    android:id="@+id/etUserSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:hint="Username"
+                    android:paddingLeft="@dimen/_8sdp"
+                    android:textColorHint="@color/white" />
+            </LinearLayout>
+
+            <!-- <EditText
+                 android:id="@+id/etUserSignUp"
+                 style="@style/EditTextStyle"
+                 android:layout_marginTop="@dimen/_8sdp"
+                 android:drawableLeft="@drawable/icon_user"
+                 android:hint="Username" />-->
+
+            <!-- <EditText
+                 android:id="@+id/etPasswordSignUp"
+                 style="@style/EditTextStyle"
+                 android:layout_marginTop="20dp"
+                 android:drawableLeft="@drawable/icon_password"
+                 android:hint="*******"
+                 android:inputType="textPassword" />
+
+             <EditText
+                 android:id="@+id/etConfPasswordSignUp"
+                 style="@style/EditTextStyle"
+                 android:layout_marginTop="20dp"
+                 android:drawableLeft="@drawable/icon_password"
+                 android:hint="*******"
+                 android:inputType="textPassword" />-->
+            <LinearLayout
+                style="@style/EditTextStyle"
+                android:layout_marginTop="@dimen/_16sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_email" />
+
+                <EditText
+                    android:id="@+id/etEmailSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="@dimen/_8sdp"
+                    android:textColorHint="@color/white" />
+            </LinearLayout>
+
+          <!--  <EditText
+                android:id="@+id/etEmailSignUp"
+                style="@style/EditTextStyle"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:drawableLeft="@drawable/icon_email"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />-->
+            <!-- </LinearLayout>
+         </ScrollView>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSignUp"
+                style="@style/btn_login"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:text="SIGN UP"
+                android:textAllCaps="true" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTermsNConditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:text="By creating an account, you agree to LutMaar's Terms of Services,Privacy Policy and Content Policies.  "
+            android:textColor="@color/white"
+            android:textSize="6pt" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
